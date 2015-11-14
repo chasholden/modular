@@ -1,4 +1,8 @@
+ol {
+  list-style-type: none;
+}
 li {
+  display: inline-block;
   width: 20rem;
   text-align: center;
   margin: 1rem;
@@ -8,7 +12,17 @@ li a {
   color: inherit;
 }
 li img {
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
+}
+.badge {
+  text-align: center;
+  position: relative;
+  top: -3rem;
+  left: 1.8rem;
+  background-color: orangered;
+  width: 5rem;
+  padding: .2rem;
+  border: 1px solid black;
 }
 .rating {
   color: #a1c900;
