@@ -1,0 +1,41 @@
+li {
+  width: 20rem;
+  text-align: center;
+  margin: 1rem;
+}
+li a {
+  text-decoration: none;
+  color: inherit;
+}
+li img {
+  padding: 1rem;
+}
+.rating {
+  color: #a1c900;
+}
+.title {
+  font-family: helvetica, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 1rem;
+}
+.price {
+  padding-bottom: 1rem;
+  line-height: 1.3rem;
+}
+.compare-price {
+  text-decoration: line-through;
+  padding-left: .5rem; 
+}
+.savings-percent {
+  display: block;
+}
+button {
+  border-radius: 0px;
+  padding: .5rem;
+  background-color: white;
+  color: black;
+}
+button:hover {
+  background-color: gainsboro;
+}
